@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+    
+
+.headerSearch {
+    max-width: 100%;
+    background: #fbd743;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    
+    
+}
+
+
+.links {
+    display: flex;
+    margin-left: 0;
+    color: #dddddd;
+    align-items: center;
+    
+
+}
+.linkAddPoke{
+    text-decoration: none;
+    color: #8f781e;
+    padding: 1px 6px 1px 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 1rem;
+}
+.linkAddPoke:hover{
+    text-decoration: none;
+    padding: 1px 6px 1px 6px;
+    background-color: #8f781e;
+    border-radius: 20px;
+    color: #fbd743;
+}
+.div-logo{
+    flex:1;
+}
+
+
+
+.containerSearch{
+    display: flex;
+    
+}
+.bar{
+    border-radius: 30px 0 0 30px;
+    border: 3px solid transparent;
+    padding: 3px
+}
+.btn-search{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-radius: 0 30px 30px 0;
+    background-color:#8f781e;
+    color: #fbd743;
+    border: transparent;
+    padding: 3px;
+    margin-right: 3rem;
+    border: 3px solid transparent;
+    
+}
+.btn-search:hover{
+    color: #8f781e;
+    background-color:#fbd743;
+    border: 3px solid #8f781e;
+    cursor:pointer;
+
+}
