@@ -47,6 +47,7 @@ function Home() {
     }else{ return true; }
     
   }
+  
  
   const validation = validationPagitations();
   const nextPage = () => {
