@@ -49,11 +49,11 @@
   position: fixed;
   right:0;
   bottom:0;
-  font-family: Pokemon;
-  color: rgb(255, 208, 0);
-  -webkit-text-stroke: 1px #3466af;
-  text-shadow: -1px 1px 0 #2c4f85;
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  /* -webkit-text-stroke: 1px #3466af;
+  text-shadow: -1px 1px 0 #2c4f85; */
+  font-size: 15px;
   margin-right: 5px
 
 }
