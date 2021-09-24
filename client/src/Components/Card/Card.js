@@ -11,7 +11,7 @@ const Card = ({image, name, types, height, weight, hp, attack, defense, speed, i
             <div className='row center-detail'>
               <div className = "card-detail">
               
-              <img src={image} alt='Img not found' className='img-detail'/>
+              <img src={image} onError={(e)=>{e.target.onerror = null; e.target.src="https://imagenpng.com/wp-content/uploads/2016/09/Pokebola-pokeball-png-2.png"}} alt='Img not found' className='img-detail'/>
               <div className='card-body'>
                   <span className ="span">{name}</span>
                 </div> 
